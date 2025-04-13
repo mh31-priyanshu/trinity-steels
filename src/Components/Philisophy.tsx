@@ -4,9 +4,9 @@ export const Philosophy = () => {
     return <>
         <div className="flex h-screen w-full">
             {/* Left section */}
-            <div className="flex-1 bg-gray-700 pt-32 px-28 text-gray-200">
+            <div className="flex-1  pt-32 px-28 text-gray-800">
                 <div className="text-5xl  font-bold">OUR PHILOSOPHY</div>
-                <div className="mt-10 bg-blue-950 p-3 text-2xl">Values</div>
+                <div className="mt-10 bg-blue-950 p-3 text-2xl text-gray-200">Values</div>
                 <div className="flex mt-7 gap-12 ml-7">
                     {/* Bar */}
                     <div className="w-[2px] bg-blue-950"></div>
@@ -17,7 +17,7 @@ export const Philosophy = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 bg-blue-950 p-3 text-2xl">Outlook</div>
+                <div className="mt-10 bg-blue-950 p-3 text-2xl text-gray-200">Outlook</div>
                 <div className="flex mt-7 gap-12 ml-7">
                     {/* Bar */}
                     <div className="w-[2px] bg-blue-950"></div>
